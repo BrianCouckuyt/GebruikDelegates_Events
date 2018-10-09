@@ -7,6 +7,15 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <Label Content="Gegeven :" HorizontalAlignment="Left" Margin="108,124,0,0" VerticalAlignment="Top" Width="66"/>
+        <TextBox x:Name="txtGegeven" HorizontalAlignment="Left" Height="23" Margin="179,124,0,0" TextWrapping="Wrap" Text="100" VerticalAlignment="Top" Width="168"/>
+        <Button x:Name="btnMijlNaarKm" Content="Mijl naar Km" HorizontalAlignment="Left" Margin="108,176,0,0" VerticalAlignment="Top" Width="239" Click="btnMijlNaarKm_Click"/>
+        <Label Content="Resultaat : " HorizontalAlignment="Left" Margin="108,296,0,0" VerticalAlignment="Top" RenderTransformOrigin="-5.184,0.577"/>
+        <TextBlock x:Name="tbResultaat" HorizontalAlignment="Left" Margin="210,301,0,0" TextWrapping="Wrap" Text="ResultMtoK" VerticalAlignment="Top" Width="137"/>
+        <Button x:Name="btnCelciusNaarKelvin" Content="Celcius naar Kelvin" HorizontalAlignment="Left" Margin="108,215,0,0" VerticalAlignment="Top" Width="239" Click="btnCelciusNaarKelvin_Click"/>
+        <Button x:Name="btnAlleOmzettingen" Content="Alle Omzettingen" HorizontalAlignment="Left" Margin="377,124,0,0" VerticalAlignment="Top" Width="161" Height="193" Click="btnAlleOmzettingen_Click"/>
+        <TextBlock x:Name="tbAlleOmzettingen" HorizontalAlignment="Left" Margin="553,124,0,0" TextWrapping="Wrap" Text="AlleOmzettingen" VerticalAlignment="Top" Height="193" Width="190"/>
+        <Button x:Name="btnAnoniem" Content="Anoniem" HorizontalAlignment="Left" Margin="108,23,0,0" VerticalAlignment="Top" Width="599" Height="75" Click="btnAnoniem_Click"/>
+
     </Grid>
 </Window>

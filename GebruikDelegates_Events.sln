@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28010.2026
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfDelegates", "WpfDelegates\WpfDelegates.csproj", "{335A5128-A335-49DB-B69E-542EB7FF7E44}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegates_EventsLib", "Delegates_EventsLib\Delegates_EventsLib.csproj", "{FBCE3594-97D1-487E-9AE7-6CC0CB40618C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{335A5128-A335-49DB-B69E-542EB7FF7E44}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{335A5128-A335-49DB-B69E-542EB7FF7E44}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{335A5128-A335-49DB-B69E-542EB7FF7E44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBCE3594-97D1-487E-9AE7-6CC0CB40618C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBCE3594-97D1-487E-9AE7-6CC0CB40618C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBCE3594-97D1-487E-9AE7-6CC0CB40618C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBCE3594-97D1-487E-9AE7-6CC0CB40618C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

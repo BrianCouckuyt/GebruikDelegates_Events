@@ -94,5 +94,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Delegates_EventsLib\Delegates_EventsLib.csproj">
+      <Project>{fbce3594-97d1-487e-9ae7-6cc0cb40618c}</Project>
+      <Name>Delegates_EventsLib</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
